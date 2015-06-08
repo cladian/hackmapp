@@ -392,8 +392,8 @@ h2 {
 *******Event CSS******
 **************************/
 #event {
-  background-color: #33888F;
-  background-image: url("../images/performar-bg.jpg");
+  background-color: #585A7B;
+  background-image: url("../images/02-performar-bg.png");
   background-position: 50% 0;
   background-size: contain;
   position: relative;
@@ -479,7 +479,7 @@ h2 {
 
 .about-content {
   width: 50%;
-   background-image: url("../images/about-bg.jpg");
+   background-image: url("../images/03-about-bg.png");
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -658,7 +658,7 @@ h2 {
 
 .contact-section {
   background-color: #f7ab24;
-  background-image: url("../images/contact-bg.jpg");
+  background-image: url("../images/05-contact-bg.jpg");
   background-position:60% 0;
   background-size:contain;
   background-repeat:no-repeat;  
