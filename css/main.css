@@ -102,7 +102,7 @@ h2 {
 }
 
 .navbar-brand {
-  background-color: #1B7B98;
+  /*background-color: #1B7B98;*/
   height: 90px;
   margin-bottom: 20px;
   position: relative;
@@ -163,7 +163,8 @@ h2 {
 }
 
 .fixed-menu .navbar-brand img {
-  height:60px;
+  height:auto;
+  width: 100%;
   top: 0;
 }
 
@@ -215,7 +216,7 @@ h2 {
 #main-slider 
 .carousel-caption a {
   font-size: 22px;
-  color: #2da1c5
+  color: #DE613E;
 }
 
 #main-slider 
@@ -255,14 +256,14 @@ h2 {
 **************************/
 
 #explore {
-  background-color: #C34C39;
-  background-image: url("../images/event-bg.jpg");
+  background-color: #7D3E35;
+  background-image: url("../images/01-people-bg.jpg");
   background-position: center bottom;
   background-size: contain;
   background-repeat:no-repeat;
   position: relative;
   overflow: hidden;
-  padding: 130px 0 100px;
+  padding: 77px 0 100px;
 }
 
 .watch {
@@ -311,31 +312,31 @@ h2 {
 }
 
 #countdown li .days {
-  background-color: #45b29d;
+  background-color: #45B29D;
   border-top: 1px solid #6ac1b1;
   border-left: 1px solid #6ac1b1;
 }
 
 #countdown li .hours {
-  background-color: #efc94c; 
-  border-top: 1px solid #f2d470;
-  border-left: 1px solid #f2d470;
+  background-color: #585A7B; 
+  border-top: 1px solid #585A7B;
+  border-left: 1px solid #585A7B;
 }
 
 #countdown li .minutes {
-  background-color: #e27a3f;
-  border-top: 1px solid #e89565;
-  border-left: 1px solid #e89565;
+  background-color: #2B763D;
+  border-top: 1px solid #2B763D;
+  border-left: 1px solid #2B763D;
 }
 
 #countdown li .seconds {
-  background-color: #df5a49;
-  border-top: 1px solid #e57b6d;
-  border-left: 1px solid #e57b6d;
+  background-color: #DF5A49;
+  border-top: 1px solid #DF5A49;
+  border-left: 1px solid #DF5A49;
 }
 
 #countdown li:before {
-  background-color: #FFFFFF;
+  background-color: transparent;
   content: "";
   height: 11px;
   left: 0;
@@ -345,7 +346,7 @@ h2 {
 }
 
 #countdown li:after {
-  background-color: #FFFFFF;
+  background-color: transparent;
   content: "";
   height: 11px;
   right:0;
@@ -365,6 +366,7 @@ h2 {
   -ms-transition: all 0.7s ease-in-out;
   -o-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
+  margin-right: -15px;
 }
 
 .cart:hover {
@@ -392,8 +394,8 @@ h2 {
 *******Event CSS******
 **************************/
 #event {
-  background-color: #33888F;
-  background-image: url("../images/performar-bg.jpg");
+  background-color: #585A7B;
+  background-image: url("../images/02-performar-bg.png");
   background-position: 50% 0;
   background-size: contain;
   position: relative;
@@ -479,7 +481,7 @@ h2 {
 
 .about-content {
   width: 50%;
-   background-image: url("../images/about-bg.jpg");
+   background-image: url("../images/03-about-bg.png");
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -658,7 +660,7 @@ h2 {
 
 .contact-section {
   background-color: #f7ab24;
-  background-image: url("../images/contact-bg.jpg");
+  background-image: url("../images/05-contact-bg.jpg");
   background-position:60% 0;
   background-size:contain;
   background-repeat:no-repeat;  
