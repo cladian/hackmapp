@@ -537,6 +537,7 @@ h2 {
   text-align: center;
 }
 
+.user img,
 #twitter-feed .item img {
   display: inline-block;
   width: 78px;
@@ -546,14 +547,14 @@ h2 {
   padding: 5px;
   margin-bottom: 30px;
 }
-
+p.tweet,
 #twitter-feed .item a, 
 #twitter-feed .item p { 
   font-size: 24px;
   font-weight: 300;
   font-family: 'Yanone Kaffeesatz','sans-serif';
 }
-
+p.tweet,
 #twitter-feed .item p {
   color: #3D3D3D;
 }
@@ -758,5 +759,7 @@ h2 {
 #footer a:hover {
   color:#1B7B98
 }
+
+
 
 
