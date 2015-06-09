@@ -102,7 +102,7 @@ h2 {
 }
 
 .navbar-brand {
-  background-color: #1B7B98;
+  /*background-color: #1B7B98;*/
   height: 90px;
   margin-bottom: 20px;
   position: relative;
@@ -255,8 +255,8 @@ h2 {
 **************************/
 
 #explore {
-  background-color: #C34C39;
-  background-image: url("../images/event-bg.jpg");
+  background-color: #7D3E35;
+  background-image: url("../images/01-people-bg.jpg");
   background-position: center bottom;
   background-size: contain;
   background-repeat:no-repeat;
