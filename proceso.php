@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $telefono = $_POST['telefono'];
 $mensaje = $_POST['mensaje'];
 // Definir el correo de destino:
-$dest = "team@cladian.com"; 
+$dest = "hackmapp@infodesarrollo.ec"; 
  
 // Estas son cabeceras que se usan para evitar que el correo llegue a SPAM:
 $headers = "From: $nombre <$email>\r\n";  
