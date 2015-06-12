@@ -29,6 +29,23 @@
 
 
 <body>
+	<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '403813403139698',
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 	
 
 	<header id="header" role="banner">		
@@ -69,6 +86,12 @@
 		                </ul>
 		            </div>
 		        </div>
+		        <div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true" style="color:white;">
+</div>
 	        </div>
         </div>                    
     </header>
@@ -376,6 +399,6 @@
     <script type="text/javascript" src="js/jquery.nav.js"></script>
     <script type="text/javascript" src="js/main.js"></script>  
     <script type="text/javascript" src="js/twitterfetch.js"></script>  
-    <script> jQuery(document).ready(function() {twitterFetcher.fetch( '608409411665686529', 'twitter-news', 3, true);});</script>
+    <script> jQuery(document).ready(function() {twitterFetcher.fetch( '609465377182117888', 'twitter-news', 7, true);});</script>
 </body>
 </html>
