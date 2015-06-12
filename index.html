@@ -16,7 +16,7 @@
 	    <script src="js/html5shiv.js"></script>
 	    <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
@@ -29,6 +29,23 @@
 
 
 <body>
+	<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '403813403139698',
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 	
 
 	<header id="header" role="banner">		
@@ -36,6 +53,7 @@
 			<div class="container">
 				<div class="header-top">
 					<div class="pull-right social-icons">
+						 <div class="fb-like" data-href="http://www.infodesarrollo.ec/hackmapp" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
 						<a href="#">Mappéate en:</a>
 						<a href="#"><i class="fa fa-twitter"></i></a>
 						<a href="#"><i class="fa fa-facebook"></i></a>
@@ -59,14 +77,17 @@
 		                <ul class="nav navbar-nav navbar-right">                 
 		                    <li class="scroll active"><a href="#home">INICIO</a></li>
 		                    <li class="scroll"><a href="#explore">EL HACKATHON</a></li>                         
-		                    <li class="scroll"><a href="#event">INSRCRÍBETE</a></li>
+		                    <li class="scroll"><a href="#event">INSCRÍBETE</a></li>
+							<li><a class="no-scroll" href="evento.html">Programación</a></li>
 		                    <li class="scroll"><a href="#about">ORGANIZADORES</a></li>                     
 		                    <!-- <li class="no-scroll"><a href="#twitter">Twitter</a></li> -->
 		                    <!-- <li><a class="no-scroll" href="#" target="_blank">PURCHASE TICKETS</a></li> -->
-		                    <li class="scroll"><a href="#contact">Contacto</a></li>       
+		                    <li class="scroll"><a href="#contact">Contacto</a></li>
+		                            
 		                </ul>
 		            </div>
 		        </div>
+		       
 	        </div>
         </div>                    
     </header>
@@ -162,9 +183,9 @@
 					<div id="event-carousel" class="carousel slide" data-interval="false">
 						<h2 class="heading">EL HACKATHON</h2>
 
-						<a style="font-size:50px; margin-right: 20px;" class="even-control-left" href="#event-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-						<a style="font-size:50px" class="even-control-right" href="#event-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-
+						<a style="font-size:50px; margin-right: 50px;" class="even-control-left" href="#event-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+						<a style="font-size:50px;" class="even-control-left" href="#event-carousel" data-slide="prev"><i class="fa fa-angle-right"></i></a>
+						
 
 						<div class="carousel-inner">
 							<div class="item active">
@@ -236,6 +257,8 @@
 					<h2>HACKMAPP</h2>
 					<p>Este sábado 11 y domingo 12 de julio, dará inicio al reto mas drande de Ecuador. Desarrollar la primera app de manera comunitaria, en equipos mutidisciplinarios de trabajo. ¡Este es tu momento!</p>
 					<a target="_blanck" href="https://docs.google.com/forms/d/1nIvlo-LcRrHpXWR37GxbmatWKXUtDwQesAA8qsYZZjw/viewform" class="btn btn-primary">Inscribe tu equipo aquí <i class="fa fa-angle-right"></i></a>
+					<a target="_blanck" href="http://www.infodesarrollo.ec/hackmapp/documentos/bases.pdf" class="btn btn-primary">Bases del concurso <i class="fa fa-angle-right"></i></a>
+					
 				
 		</div>
 	</section><!--/#about-->
@@ -339,7 +362,7 @@
 					                <input type="email" name="email" class="form-control" required="required" placeholder="Correo">
 					            </div>
 					            <div class="form-group">
-					                <textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Ingrese sus datos"></textarea>
+					                <textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Mensaje"></textarea>
 					            </div>                        
 					            <div class="form-group">
 					                <button type="submit" class="btn btn-primary pull-right">Enviar</button>
@@ -356,7 +379,7 @@
     <footer id="footer">
         <div class="container">
             <div class="text-center">
-                <p> Copyright  &copy;2015<a target="_blank" href="http://infodesarrollo.ec/"> Hackmapp. </a>Todos los derechos reservados.<!--  <br> Designed by <a target="_blank" href="http://shapebootstrap.net/">ShapeBootstrap</a> --></p>                
+                 <p class="footer"> Copyright  &copy;2015<a target="_blank" href="http://infodesarrollo.ec/"> Hackmapp. </a>Todos los derechos reservados.<!--  <br> Designed by <a target="_blank" href="http://shapebootstrap.net/">ShapeBootstrap</a> --></p>         
             </div>
         </div>
     </footer>
@@ -372,6 +395,6 @@
     <script type="text/javascript" src="js/jquery.nav.js"></script>
     <script type="text/javascript" src="js/main.js"></script>  
     <script type="text/javascript" src="js/twitterfetch.js"></script>  
-    <script> jQuery(document).ready(function() {twitterFetcher.fetch( '608409411665686529', 'twitter-news', 3, true);});</script>
+    <script> jQuery(document).ready(function() {twitterFetcher.fetch( '609465377182117888', 'twitter-news', 7, true);});</script>
 </body>
 </html>

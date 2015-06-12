@@ -9,33 +9,10 @@
 body {
   font-family: 'Dosis', sans-serif;
   font-size: 17px;
-  color: #fff;
-  background-color: #75B46E !important;
+  color: #fff
 }
-h2.evento{
-  background-color: #35742E;
-  margin-left: -15px;
-  padding-left: 12px;
-}
-.fecha{
-  color: #35742E;
-}
-hr{
-  border-top-color: #35742E !important;
-}
-.titulo-span{
-  color: #35742E;
-}
-p{
-  text-align: justify;
-}
-.footer{
-  text-align: center;
-}
-.nuevo{
-  margin-top:100px;
-  margin-bottom: 60px;
-}
+
+
 .btn {
   border-radius: 0;
   font-family: 'Yanone Kaffeesatz','sans-serif';
@@ -96,17 +73,7 @@ h2 {
   width: 100%;
   z-index: 999;
 }
-.main-nav1 {
-  position: relative;
-  width: 100%;
-  z-index: 999;
-}
-.main-nav1
-.container {
-  width: 100%;
-  background-color: #1b7b98;
-  opacity: 0.9;
-}
+
 .main-nav 
 .container {
   width: 100%
@@ -498,9 +465,6 @@ h2 {
 
 #about {
   background-color: #75B46E;  
-  background-image: url("../images/03-about-bg.png");
-  background-repeat: repeat;
-  background-size: 100% auto;
   position: relative;  
   width: 100%;
   display: flex;
@@ -515,18 +479,9 @@ h2 {
   padding-top: 3%;
 }
 
-.guitar3 {
-  top: 0;
-  width: 20%;
-}
-
-.guitar3 img {
-  padding-top: 13%;
-  position: fixed;
-  opacity: 0.7;
-}
 .about-content {
   width: 50%;
+   background-image: url("../images/03-about-bg.png");
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
